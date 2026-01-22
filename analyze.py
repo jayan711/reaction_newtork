@@ -9,5 +9,5 @@ def count_graphml_bz2(path):
 
 if __name__ == "__main__":
     directory = Path(".")  
-    for file_path in directory.glob("*.graphml.bz2"):
+    for file_path in directory.glob("*3.graphml.bz2"):
         count_graphml_bz2(file_path)
